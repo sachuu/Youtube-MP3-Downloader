@@ -23,6 +23,13 @@ This tool downloads the highest quality audio from YouTube videos and saves them
 
 2. **Create and Activate a Virtual Environment**
 
+   **Windows:**
+   ```sh
+   python -m venv source
+   source\Scripts\activate
+   ```
+
+   **macOS/Linux:**
    ```sh
    python3 -m venv source
    source source/bin/activate
@@ -36,9 +43,14 @@ This tool downloads the highest quality audio from YouTube videos and saves them
 
 4. **Install ffmpeg**
 
-   If you don't have ffmpeg, install it with Homebrew:
+   Mac:
    ```sh
    brew install ffmpeg
+   ```
+
+   Windows:
+   ```
+   winget install ffmpeg
    ```
 
 ## Usage
